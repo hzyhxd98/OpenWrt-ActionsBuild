@@ -69,7 +69,7 @@ env:
   
   Resoure_DIR: ${{ github.event.inputs.resource_directory }}
   
-  REPO_URL: https://github.com/hzyhxd98/immortalwrt
+  REPO_URL: https://github.com/hzyhxd98/openwrt18.06
   
   REPO_BRANCH: ${{ github.event.inputs.repo_branch }}
   CONFIG_FILE: '${{ github.event.inputs.resource_directory }}/${{ github.event.inputs.config_file }}'
