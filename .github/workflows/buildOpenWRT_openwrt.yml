@@ -72,7 +72,7 @@ env:
   
   Resoure_DIR: ${{ github.event.inputs.resource_directory }}
   
-  REPO_URL: https://github.com/openwrt/openwrt
+  REPO_URL: https://github.com/hzyhxd98/openwrt-19.07.1
   
   REPO_BRANCH: ${{ github.event.inputs.repo_branch }}
   CONFIG_FILE: '${{ github.event.inputs.resource_directory }}/${{ github.event.inputs.config_file }}'
