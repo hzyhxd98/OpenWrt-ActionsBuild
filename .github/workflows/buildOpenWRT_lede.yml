@@ -12,9 +12,9 @@ on:
         type: choice
         description: '路由器资源目录'
         options:
-          - "P2W_R619AC-128M"
+        #  - "P2W_R619AC-128M"
           - "XIAOMI-4A_100M"
-          - "XIAOMI-4A_GIGABit"
+       #   - "XIAOMI-4A_GIGABit"
       repo_branch:
         type: choice
         description: '版本分支'
